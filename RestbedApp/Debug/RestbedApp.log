@@ -1,0 +1,5 @@
+﻿  RestCalculator.cpp
+  RestServer.cpp
+c:\users\anjanag\source\repos\restbedapp\restbedapp\restserver.cpp(40): warning C4101: 'e': unreferenced local variable
+  Generating Code...
+  RestbedApp.vcxproj -> C:\Users\anjanag\source\repos\RestbedApp\Debug\RestbedApp.exe
