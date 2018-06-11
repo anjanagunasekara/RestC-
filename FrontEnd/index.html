@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/jquery-3.3.1.min.js"></script>
+  <script src="./js/calc.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4"></div>
+      <div class="col-sm-4">
+        <h1>Mini Calculator</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4"></div>
+      <div class="col-sm-4">
+          <div class="form-group">
+            <label for="value1">Value 1:</label>
+            <input type="text" class="form-control" id="value1" value = "0">
+          </div>
+          <div class="form-group">
+            <label for="value2">Value 2:</label>
+            <input type="text" class="form-control" id="value2" value = "0">
+          </div> 
+          <div class="form-group">
+            <label for="answer">Answer:</label>
+            <input type="text" class="form-control" id="answer" value = "0">
+          </div> 
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-sm-4"></div>
+      <div class="col-sm-4">
+        <button type="button" class="btn btn-block" onclick="post('http://localhost:1984/resource/add?');">Add</button>
+        <button type="button" class="btn btn-block" onclick="post('http://localhost:1984/resource/minus?');">Substract</button>
+        <button type="button" class="btn btn-block" onclick="post('http://localhost:1984/resource/divide?');">Divide</button>
+        <button type="button" class="btn btn-block" onclick="post('http://localhost:1984/resource/mult?');">Multiply</button>
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>
